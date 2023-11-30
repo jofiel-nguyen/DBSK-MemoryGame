@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const symbols = ['./assets/1.png', '/assets/2.png', '/assets/3.png', '/assets/4.png', '/assets/5.png','/assets/6.png'];
+    const symbols = ['./assets/1.png', './assets/2.png', './assets/3.png', './assets/4.png', './assets/5.png','./assets/6.png'];
     const totalCards = symbols.length * 2;
 
     const shuffledSymbols = shuffleArray(symbols.concat(symbols));
